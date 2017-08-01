@@ -27,7 +27,9 @@ def predict(url):
     global model
     if model is None:
         model =inception_v3.InceptionV3()
-        model.compile(optimizer='rmsprop', loss='categorical_crossentropy')
+        model.compile(loss='categorical_crossentropy',
+              optimizer='adam',
+              metrics=['accuracy'])
     preds = model.predict(np.array([img]))
     return imagenet_utils.decode_predictions(preds)
 
