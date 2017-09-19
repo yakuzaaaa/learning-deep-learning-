@@ -114,7 +114,7 @@ p.predict(X[-10:])
 
 
 
-![gif](imgs/perceptron_fit.gif)
+![png](img/perceptron_1.png)
 
 
 
