@@ -1,19 +1,5 @@
 
-## PERCEPTRON
-
-Binary Classifier for classification to {-1,+1}
-
-$w^T\phi(x)=0$ is the Hyperplane
-
-$f(x)=w^T\phi(x)$ Decision Function
-
-for Missclassified Points $y_iw^T\phi(x)<0$
-
-### PERCEPTRON ALGORITHM Batch Gradient Descent
-
-<b>INITIALIZE</b>: w=ones()<br>
-<b>REPEAT</b>: for each [x,y]<br>
-<b>IF</b> $$y_iw^T\phi(x_i)<0$$ <b>THEN</b> $w=w+\eta\phi(x).y_i$<br>
+<img src="imgs/perceptron_intro.png">
 
 
 
