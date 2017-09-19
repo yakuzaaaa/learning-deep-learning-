@@ -13,7 +13,7 @@ for Missclassified Points $y_iw^T\phi(x)<0$
 
 <b>INITIALIZE</b>: w=ones()<br>
 <b>REPEAT</b>: for each [x,y]<br>
-<b>IF</b> $y_iw^T\phi(x_i)<0$ <b>THEN</b> $w=w+\eta\phi(x).y_i$<br>
+<b>IF</b> $$y_iw^T\phi(x_i)<0$$ <b>THEN</b> $w=w+\eta\phi(x).y_i$<br>
 
 
 
