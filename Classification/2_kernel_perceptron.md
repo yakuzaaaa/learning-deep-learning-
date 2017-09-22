@@ -1,5 +1,5 @@
 
-<img src="kernel_perceptron_intro.png">
+<img src="imgs/kernel_perceptron_intro.png">
 
 
 
