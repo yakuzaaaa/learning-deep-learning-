@@ -1,44 +1,5 @@
 
-# LOGISTIC REGRESSION
-
-$sign(w^T\phi(x))$ will be replaced with $g(w^T\phi(x))$
-
-$g(w^T\phi(x)) = \Large\frac{1}{1+e^{-w^T\phi(x)}} \normalsize \in [0,1]$ can be interpreted as $Pr(y=1|x)$
-
-Now $Pr(y=0|x)=1-Pr(y=1|x)$
-
-<b>Sigmoid Function</b>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Logistic-curve.svg/600px-Logistic-curve.svg.png">
-
-<b> Maximum Liklihood Estimate </b> $w^*$ maximizes the Liklihood $L(D;w)$
-
-Likilihood is the probability of D under iid assumption $w^*=argmax_w L(D;w)$
-
-$L(D;w) = \prod_{i=1}^{m} Pr(y_i|x_i;w)$
-
-$\prod_{i=1}^{m} Pr(y_i|x_i;w) = \prod_{i=1}^{m} Pr(1 |x_i,w)^{y_i}Pr(0|x_i,w)^{1-y_i}=\prod_{i=1}^{m}(f(x_i))^{y_i}(1-f(x_i))^{1-y_i}$<br>
-<hr>
-Where $f(x_i)$ is the decision function <br>
-Maximizing the Liklihood is same as minimizing the negetive of Log liklihood <br>
-$E(w)=-\frac{1}{m}log(Pr(D;w))$ <br>
-
-<i><b>$E(w)$</b> is called the cross entropy loss function.<br>
-$f_w(x_i)=\Large\frac{1}{1+e^{-w^T\phi(x)}}$<br></i>
-
-<hr>
-
-<b>Gradient Descent for LR</b><br>
-
-$-\eta\nabla E(w)=\eta[\frac{1}{m}\sum_{i}^{m}(y_i-f_w(x_i))\phi(x_i)]$
-
-<b>The Iterative Rule</b><br>
-
-$w^{(k+1)}=w^k+\eta\nabla E(w)=\eta[\frac{1}{m}\sum_{i}^{m}(y_i-f_w(x_i))\phi(x_i)]$
-
-
-<b>Stochastic Version</b><br>
-
-$w^{(k+1)}=w^k+\eta\nabla E(w)=w^k + \eta(y_i-f_w(x_i))\phi(x_i)$
+<img src="imgs/logistic_regression_intro.png">
 
 
 ```python
