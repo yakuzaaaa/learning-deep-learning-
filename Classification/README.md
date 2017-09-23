@@ -1,4 +1,5 @@
 # classification
 
     - Linear Perceptron
-    - Kernel Perceptron 
+    - Kernel Perceptron
+    - Logistic Regression 
