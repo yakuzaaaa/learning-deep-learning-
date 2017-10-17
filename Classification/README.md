@@ -2,4 +2,5 @@
 
     - Linear Perceptron
     - Kernel Perceptron
-    - Logistic Regression 
+    - Logistic Regression
+    - Fully Connected Neural Net
