@@ -1,4 +1,4 @@
-# learning-deep-learning-
+# Learning Deep Learning
 My Deeplearning Learning Repo
 
 ## Classification
@@ -9,4 +9,3 @@ My Deeplearning Learning Repo
 
 ## Regression
     - Ordinary Least Square Linear Regression
-    
